@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(labyrinth)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Find required packages
+find_package(Boost REQUIRED)
+
+# Add source files
+add_executable(labyrinth main.cpp anees.cpp)
+
+# Link against required libraries
+target_link_libraries(labyrinth Boost::boost)
