@@ -1,6 +1,7 @@
 from GUI import GUI
 from HAL import HAL
 import math
+import time
 
 # Constants
 MAX_SPEED = 1.0
@@ -66,3 +67,6 @@ while True:
     GUI.showForces(tuple(map(lambda x: x * 10, car_force)), 
                    tuple(map(lambda x: x * 10, obs_force)), 
                    tuple(map(lambda x: x * 10, avg_force)))
+    
+    # Sleep for a short period of time to give the robot time to move
+    time.sleep(0.1)
