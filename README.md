@@ -12,8 +12,10 @@ I have Completed following Challenges :
 
 
 -----------------------------------------------------------------------------------------------------
-Additionally - **Image Segmentation** :) 
+**Additionally :)** 
 
-[View Notebook](https://colab.research.google.com/drive/1HxnWa51cik4-Ecd8w-ngnptGdoABlosA?usp=sharing)
+# [Image Segmentation - Notebook](https://colab.research.google.com/drive/1HxnWa51cik4-Ecd8w-ngnptGdoABlosA?usp=sharing)
+
+
 
 ![](https://github.com/asat24/GSOC_JDE/blob/main/asset/logo.gif)
